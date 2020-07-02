@@ -21,7 +21,7 @@ spec:
         app: sa-frontend                                  # 6
     spec:
       containers:
-        - image: basilvarghese/sa-frontend:1.1.0
+        - image: basilvarghese/sa-frontend:1.2.2
           imagePullPolicy: Always                         # 7
           name: sa-frontend
           ports:
