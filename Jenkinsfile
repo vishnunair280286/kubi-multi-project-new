@@ -17,5 +17,10 @@ pipeline {
                 sh 'cd sa-frontend && docker build -t sa-frontend:1.0.0 .'
             }
         }
+        stage('Email Notification') {
+	    steps {
+		emailext body: 'Build Failed. Please check the Dashboard of Jenkins', subject: 'Build Failed. Please check the Dashboard of Jenkins', to: 'basil1987@gmail.com'
+            }
+	}
     }
 }
