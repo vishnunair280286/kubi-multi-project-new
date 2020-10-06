@@ -2,6 +2,7 @@ This repository contains the source files needed to follow the series [Kubernete
 
 To learn more about Kubernetes and other related topics check the following examples with the **Sentiment Analysis** application:
 
+========
 * [Kubernetes Volumes in Practice](https://rinormaloku.com/kubernetes-volumes-in-practice/):
 * [Ingress Controller - simplified routing in Kubernetes](https://www.orange-networks.com/blogs/210-ingress-controller-simplified-routing-in-kubernetes)
 * [Docker Compose in Practice](https://github.com/rinormaloku/k8s-mastery/tree/docker-compose)
